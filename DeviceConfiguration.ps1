@@ -4,7 +4,7 @@ Start-Transcript "$($env:ProgramData)\DeviceConfiguration\DeviceConfiguration.lo
 if (-not (Test-Path "$($env:ProgramData)\DeviceConfiguration")) {
     New-Item -Path $env:ProgramData -Name 'DeviceConfiguration' -ItemType 'directory' -Force
 }
-Set-Content -Path "$($env:ProgramData)\DeviceConfiguration\DeviceConfiguration.exe.tag" -Value "Installed"
+Set-Content -Path "$($env:ProgramData)\DeviceConfiguration\DeviceConfiguration.ps1.tag" -Value "Installed"
 
 $geoid = "_" + $(Get-WinHomeLocation).GeoId
 Write-Host "Geo location: $geoid"
