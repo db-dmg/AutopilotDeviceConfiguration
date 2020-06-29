@@ -1,5 +1,5 @@
 # AutopilotDeviceConfiguration
-A modified version of AutopilotBranding (https://github.com/mtniehaus/AutopilotBranding) which configures a device during Windows Autopilot based on its geographical location.
+A modified version of AutopilotBranding (https://github.com/mtniehaus/AutopilotBranding) which configures a device during Windows Autopilot based on its geographical ID location. This is based on the location the user selects during OOBE.
 
 I've removed items I didn't want/need to customise in my version, such as the Start Menu.
 
